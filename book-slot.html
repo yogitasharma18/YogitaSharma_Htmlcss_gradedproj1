@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/external/normalize.css">
+        <link rel="stylesheet" href="css/book-slot.css">
+    </head>
+    <body>
+        <main>
+            <form action="">
+                <div class="left-align-item">
+                    <div class="form-input-category">
+                        <div class="label">1. Your Contact Details</div>
+                        <div class="form-input-box">
+                            <input type="text"id="name" placeholder="Full Name"/>
+                        </div>
+                        <div class="form-input-box">
+                            <input type="text"id="name" placeholder="Patient id if exists"/>
+                        </div>
+                        <div class="form-input-box">
+                            <input type="text"id="name" placeholder="Contact Number"/>
+                        </div>
+                        <div class="form-input-box">
+                            <input type="text"id="name" placeholder="Email Id"/>
+                        </div>
+                    </div>
+
+                    <div class="form-input-category">
+                        <div class="label">2. Address</div>
+                        <div class="form-input-box">
+                            <input type="text"id="name" placeholder="House Number"/>
+                        </div>
+                        <div class="form-input-box">
+                            <input type="text"id="name" placeholder="Street"/>
+                        </div>
+                        <div class="form-input-box">
+                            <input type="text"id="name" placeholder="Area"/>
+                        </div>
+                        <div class="form-input-box block">
+                            <label>District</label><br>
+                            <select type="text" id="district">
+                                <option value="">Choose</option>
+                                <option value="Faridabad">Faridabad</option>
+                                <option value="Karnal">Karnal</option>
+                                <option value="Rohtak">Rohtak</option>
+                                <option value="Panipat">Panipat</option>
+                                <option value="Palwal">Palwal</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-input-category">
+                        <div class="label">3. Choose the Test Type</div>
+                        <div class="form-input-box">
+                            <input type="checkbox" id="test1" name="test1" value="CBC">
+                            <label for="test1"> CBC</label><br>
+                            <input type="checkbox" id="test2" name="test2" value="Complete Urine">
+                            <label for="test2"> Complete Urine</label><br>
+                            <input type="checkbox" id="test3" name="test3" value="Lipid Profile">
+                            <label for="test3"> Lipid Profile</label><br>
+                            <input type="checkbox" id="test4" name="test4" value="Thyroid Stimulating Hormone(TSH)">
+                            <label for="test4"> Thyroid Stimulating Hormone(TSH)</label><br>
+                            <input type="checkbox" id="test5" name="test5" value="Glucose Test">
+                            <label for="test5"> Glucose Test</label>
+                        </div>
+                    </div>
+                    <div class="form-input-category">
+                        <div class="label">5. Do you want a hard copy of the report also?</div>
+                        <div class="form-input-box">
+                            <input type="radio" id="yes" name="yes" value="Yes">
+                            <label for="yes">Yes</label><br>
+                            <input type="radio" id="no" name="no" value="No">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+                    <div class="form-input-category">
+                        <div class="label">6. Select Your Comfortable Date and Time</div>
+                        <div class="form-input-box">
+                            <label for="date">Date:</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        <div class="form-input-box">
+                            <label for="time">Time:</label>
+                            <input type="time" id="time" name="time">
+                        </div>
+                    </div>
+                </div>   
+                <div class="right-align-item">
+                    <div class="img-container">
+                        <img src="images/Lab-Test/lab-test.jpg" class="lab-test-item-image" />
+                    </div>
+                </div>
+
+                <div class="btn-container">
+                    <button type="submit" class="submit">Submit</button>
+                    <button type="reset" class="reset">Reset</button>
+                </div>
+        </form>
+        </main>
+    </body>
+</html>
